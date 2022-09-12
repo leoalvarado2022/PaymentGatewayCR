@@ -1,0 +1,21 @@
+{
+    "name": "softven/payments-gateway",
+    "description": "Gateway for payments in some countries that uses PlacetoPay(Evertec), ProAmerica Costa Rica, Paypal, Stripe",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Corporacion Softvenca",
+            "email": "softvenca@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gateways\\": "src/"
+        }
+    }
+}
