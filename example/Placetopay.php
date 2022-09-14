@@ -6,8 +6,8 @@
 	use Gateways\Gateways\Placetopay\PlacetopayAdapter;
 	
 	$parameters = [
-		"login"=>"80c024908a9c7fb90373115179eb8247",
-		"secret_key"=>"NaW3O22Ue60i38z6",
+		"login"=>"LOGIN KEY DADA POR PLACETOPAY",
+		"secret_key"=>"SECRET KEY DADO POR PLACETOPAY",
 		"currency"=>"CRC",
 		"enviroment"=>"development"
 	];
